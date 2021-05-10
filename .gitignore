@@ -1,0 +1,10 @@
+# Fish
+config/fish/fish_variables
+
+# Neovim
+config/nvim/plugged
+config/nvim/.netrwhist
+
+# Spicetify
+config/spicetify/Extracted
+config/spicetify/Backup

@@ -1,0 +1,20 @@
+[push]
+	default = upstream
+[merge]
+	conflictstyle = diff3
+[user]
+	email = gabriele.belluardo@outlook.it
+	name = Gabriele Belluardo
+[core]
+	editor = nvim
+
+[diff "odf"]
+	textconv=odt2txt
+[credential]
+	helper = store
+[protocol]
+	version = 2
+[pull]
+	ff = only
+[init]
+	defaultBranch = main
