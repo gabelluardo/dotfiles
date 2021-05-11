@@ -166,34 +166,4 @@ _pip_completion()
                     PIP_AUTO_COMPLETE=1 $1 ) )
 }
 complete -o default -F _pip_completion pip
-# pip bash completion end
 
-# virtualenv python
-export WORKON_HOME=/home/gabriele/.virtualenvs
-export PIP_VIRTUALENV_BASE=/home/gabriele/.virtualenvs
-export PIPENV_VENV_IN_PROJECT=True
-
-# yarn path
-export PATH="$(yarn global bin --offline):$PATH"
-
-# deno path
-export PATH="$PATH:$HOME/.deno/bin"
-source $HOME/.deno/deno.bash-completion
-
-# rust path
-source $HOME/.cargo/env
-source $HOME/.rustup/rustup.bash-completion
-
-# golang path
-export PATH="$PATH:$HOME/.go/bin"
-export GOPATH="$HOME/.go"
-
-# poetry path
-source $HOME/.poetry/env
-source $HOME/.poetry/poetry.bash-completion
-
-# borg-backup pass
-export BORG_PASSCOMMAND="cat $HOME/.borg-passphrase"
-
-# alias
-source $HOME/.bash_aliases

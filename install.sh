@@ -1,7 +1,7 @@
 #! /usr/bin/env bash
 
 # ignored entry
-IGNORE=(".git","README.md","install.sh")
+IGNORE=(".git",".gitignore","README.md","install.sh")
 
 # funcitons
 print_line () {
