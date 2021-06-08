@@ -88,7 +88,7 @@ shell:
 mouse:
   hide_when_typing: true
 
-  url:
+  hints:
     # URL modifiers
     #
     # These are the modifiers that need to be held down for opening URLs when
