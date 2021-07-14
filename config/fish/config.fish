@@ -1,5 +1,5 @@
 # Source local environment variables file
-source ~/.fishenv ^&-
+source ~/.fishenv 
 
 # velociraptor tab-completion
 source (vr completions fish | psub)
