@@ -5,6 +5,7 @@
 [user]
 	email = gabriele.belluardo@outlook.it
 	name = Gabriele Belluardo
+	signingKey = 83E43A6563A2ED3312EEC27021671B8C89CCBF4F
 [core]
 	editor = nvim
 
@@ -18,3 +19,9 @@
 	ff = only
 [init]
 	defaultBranch = main
+[commit]
+	gpgsign = true
+[tag]
+	forceSignAnnotated = true
+[github]
+	user = gabelluardo
