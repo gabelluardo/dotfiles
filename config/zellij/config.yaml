@@ -1,5 +1,16 @@
 ---
 keybinds:
-    normal:
+    normal:    
+        - unbind: true
         - action: [ NewPane: Right, ]
-          key: [ Alt: 'm',]
+          key: [ Alt: ']',]
+        - action: [ NewPane: Down, ]
+          key: [ Alt: '[',]
+        - action: [ NewPane: , ]
+          key: [ Alt: 'n',]
+        - action: [ NewTab: ,]
+          key: [ Ctrl: 'n', ]
+        - action: [MoveFocusOrTab: Left,]
+          key: [ Ctrl: 'k', ]
+        - action: [MoveFocusOrTab: Right,]
+          key: [ Ctrl: 'o',]

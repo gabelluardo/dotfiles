@@ -82,8 +82,8 @@ shell:
   args:
     - -l
     - -i
-    #- -c
-    #- zellij -l ~/.config/zellij/layout.yaml
+    - -c
+    - zellij --layout-path ~/.config/zellij/layout.yaml 
 
 mouse:
   hide_when_typing: true
