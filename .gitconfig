@@ -8,6 +8,7 @@
 	signingKey = 83E43A6563A2ED3312EEC27021671B8C89CCBF4F
 [core]
 	editor = nvim
+	autocrlf = input
 
 [diff "odf"]
 	textconv=odt2txt
