@@ -83,7 +83,7 @@ shell:
     - -l
     - -i
     - -c
-    - zellij --layout-path ~/.config/zellij/layout.yaml 
+    - zellij --layout-path ~/.config/zellij/layout.yaml
 
 mouse:
   hide_when_typing: true
