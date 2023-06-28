@@ -88,9 +88,8 @@ shell:
   program: /bin/fish
   args:
     - -l
-    - -i
-    #- -c
-    #- zellij --layout-path ~/.config/zellij/layout.yaml
+    - -c
+    - zellij --layout ~/.config/zellij/layout.kdl attach --create
 
 mouse:
   hide_when_typing: true
