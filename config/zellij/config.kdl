@@ -3,8 +3,12 @@ keybinds {
         bind "Alt ]" { NewPane "Right"; }
         bind "Alt [" { NewPane "Down"; }
         bind "Alt n" { NewTab; }
-        bind "Alt ," { MoveFocusOrTab "Left"; }
-        bind "Alt ." { MoveFocusOrTab "Right"; }
+        bind "Alt Left" { MoveFocusOrTab "Left"; }
+        bind "Alt Right" { MoveFocusOrTab "Right"; }
+        bind "Alt Up" { MoveFocus "Up"; }
+        bind "Alt Down" { MoveFocus "Down"; }
+        bind "Alt j" { Resize "Increase"; }
+        bind "Alt k" { Resize "Decrease"; }
     }
 }
 
