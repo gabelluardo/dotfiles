@@ -1,5 +1,6 @@
 [push]
 	default = upstream
+	autoSetupRemote = true
 [merge]
 	conflictstyle = diff3
 [user]
@@ -9,6 +10,7 @@
 [core]
 	editor = nvim
 	autocrlf = input
+	symlinks = true
 
 [diff "odf"]
 	textconv=odt2txt
