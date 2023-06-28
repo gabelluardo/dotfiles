@@ -11,6 +11,9 @@
 import:
   - ~/.config/alacritty/themes/nord.yml
 
+env:
+  WINIT_X11_SCALE_FACTOR: "1"
+
 window:
   # Window dimensions (changes require restart)
   #
@@ -47,7 +50,7 @@ font:
     family: Hack
 
   # Point size
-  size: 12.0
+  size: 14.0
 
 cursor:
   # Cursor style
@@ -86,8 +89,8 @@ shell:
   args:
     - -l
     - -i
-    - -c
-    - zellij --layout-path ~/.config/zellij/layout.yaml
+    #- -c
+    #- zellij --layout-path ~/.config/zellij/layout.yaml
 
 mouse:
   hide_when_typing: true
