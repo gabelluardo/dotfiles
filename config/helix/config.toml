@@ -1,0 +1,14 @@
+theme = "ayu_mirage"
+
+[editor]
+auto-completion = true
+auto-info = true
+completion-trigger-len = 2
+true-color = true
+auto-format = true
+
+[editor.lsp]
+display-inlay-hints = true
+
+[editor.cursor-shape]
+insert = "bar"
