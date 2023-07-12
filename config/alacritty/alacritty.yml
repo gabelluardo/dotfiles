@@ -89,7 +89,7 @@ shell:
   args:
     - -l
     - -c
-    - zellij --layout ~/.config/zellij/layout.kdl attach --index 0 --create
+    - zellij --layout ~/.config/zellij/layout.kdl attach --create
 
 mouse:
   hide_when_typing: true
