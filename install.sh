@@ -4,6 +4,7 @@
 IGNORE=(".git",".gitignore","README.md","install.sh")
 
 # funcitons
+
 print_line () {
     len=$@
     echo -n "+"
@@ -24,15 +25,6 @@ print_title () {
 }
 
 # start script 
-
-print_title "Install binary in '/usr/bin' directory";
-
-for entry in `ls bin`
-do 
-    cp -v $entry /usr/bin
-    # echo "$entry -> /usr/bin"
-done 
-
 
 echo; print_title "Link configuration files into '$HOME' directory" 
 
@@ -58,6 +50,3 @@ done
 
 
 echo; print_title "Installation completed!"
-
-
-
