@@ -1,4 +1,5 @@
 theme = "ayu_mirage"
+# theme = "gruvbox"
 
 [editor]
 auto-completion = true
