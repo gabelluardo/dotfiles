@@ -12,7 +12,7 @@ shape = "Block"
 WINIT_X11_SCALE_FACTOR = "1"
 
 [font]
-size = 14.0
+size = 12.0
 
 [font.normal]
 family = "Hack"
@@ -52,7 +52,7 @@ args = [
 program = "/bin/fish"
 
 [window.dimensions]
-columns = 120
+columns = 110
 lines = 40
 
 [window.padding]
