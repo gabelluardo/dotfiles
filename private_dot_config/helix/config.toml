@@ -1,0 +1,16 @@
+theme = "ayu_mirage"
+# theme = "gruvbox"
+
+[editor]
+auto-completion = true
+auto-info = true
+completion-trigger-len = 2
+true-color = true
+auto-format = true
+cursorline = true
+
+[editor.lsp]
+display-inlay-hints = true
+
+[editor.cursor-shape]
+insert = "bar"

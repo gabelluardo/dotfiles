@@ -1,0 +1,35 @@
+[push]
+	default = upstream
+	autoSetupRemote = true
+[merge]
+	conflictstyle = diff3
+[user]
+	email = gabriele.belluardo@outlook.it
+	name = Gabriele Belluardo
+	signingKey = 83E43A6563A2ED3312EEC27021671B8C89CCBF4F
+[core]
+	editor = nvim
+	autocrlf = input
+	symlinks = true
+
+[diff "odf"]
+	textconv=odt2txt
+[credential]
+	helper = store
+[protocol]
+	version = 2
+[pull]
+	ff = only
+[init]
+	defaultBranch = main
+[commit]
+	gpgsign = true
+[tag]
+	forceSignAnnotated = true
+[github]
+	user = gabelluardo
+[alias]
+	br = branch --format='%(HEAD) %(color:yellow)%(refname:short)%(color:reset) - %(contents:subject) %(color:green)(%(committerdate:relative)) [%(authorname)]' --sort=-committerdate
+	lg = !git log --pretty=format:\"%C(magenta)%h%Creset -%C(red)%d%Creset %s %C(dim green)(%cr) [%an]\" --abbrev-commit -30
+	undo = reset HEAD~1 --mixed
+

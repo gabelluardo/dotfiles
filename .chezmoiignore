@@ -1,0 +1,9 @@
+# Fish
+config/fish/fish_variables
+
+# Neovim
+config/nvim/plugged
+config/nvim/.netrwhist
+
+# Other
+README.md
