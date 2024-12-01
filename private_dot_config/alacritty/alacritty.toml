@@ -1,3 +1,4 @@
+[general]
 import = ["/home/gabriele/.config/alacritty/themes/nord.toml"]
 
 [cursor]
@@ -43,7 +44,7 @@ mouse = "Middle"
 [scrolling]
 history = 5000
 
-[shell]
+[terminal.shell]
 args = [
     "-l",
     "-c",
