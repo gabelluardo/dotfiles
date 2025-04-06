@@ -15,8 +15,6 @@ Plug 'ziglang/zig.vim'
 
 " Themes
 Plug 'morhetz/gruvbox'
-Plug 'nightsense/forgotten'
-Plug 'nightsense/nemo'
 
 call plug#end()
 
