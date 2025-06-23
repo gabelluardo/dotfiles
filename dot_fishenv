@@ -1,10 +1,13 @@
+set -x SSH_AUTH_SOCK "$XDG_RUNTIME_DIR"/ssh-agent.socket
+
 # virtualenv python
 set WORKON_HOME ~/.virtualenvs
 set PIP_VIRTUALENV_BASE ~/.virtualenvs
 set PIPENV_VENV_IN_PROJECT True
 
 # gopath go
-set -x GOPATH ~/.go
+set -x GOPATH "$HOME/.go"
+set -x PATH "$GOPATH/bin:$PATH"
 
 # borg-backup pass
 set -x BORG_PASSCOMMAND cat ~/.borg-passphrase
@@ -12,8 +15,6 @@ set -x BORG_PASSCOMMAND cat ~/.borg-passphrase
 # anime-dl client id for anilist
 set -x ANIMEDL_ID 4047
 
-# localstack
-set -x EXTRA_CORS_ALLOWED_ORIGINS '*'
-
 # esp toolkit
-set -x LIBCLANG_PATH "/home/gabriele/.rustup/toolchains/esp/xtensa-esp32-elf-clang/esp-18.1.2_20240912/esp-clang/lib"
+set -x LIBCLANG_PATH "/home/gabriele/.rustup/toolchains/esp/xtensa-esp32-elf-clang/esp-19.1.2_20250225/esp-clang/lib"
+set -x PATH "/home/gabriele/.rustup/toolchains/esp/xtensa-esp-elf/esp-14.2.0_20240906/xtensa-esp-elf/bin:$PATH"

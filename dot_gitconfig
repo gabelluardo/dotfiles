@@ -15,7 +15,7 @@
 [diff "odf"]
 	textconv=odt2txt
 [credential]
-	helper = store
+	helper = cache
 [protocol]
 	version = 2
 [pull]
