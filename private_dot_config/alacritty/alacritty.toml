@@ -54,7 +54,7 @@ program = "/bin/fish"
 
 [window.dimensions]
 columns = 110
-lines = 40
+lines = 36
 
 [window.padding]
 x = 2
