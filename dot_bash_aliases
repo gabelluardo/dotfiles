@@ -1,6 +1,6 @@
 # replacement
-alias ls='exa'
-alias ll='exa -la'
+alias ls='eza'
+alias ll='eza -la'
 alias cat='bat'
 alias vim='nvim'
 alias grep='rg'
