@@ -53,8 +53,8 @@ args = [
 program = "/bin/fish"
 
 [window.dimensions]
-columns = 110
-lines = 36
+columns = 100
+lines = 32
 
 [window.padding]
 x = 2
