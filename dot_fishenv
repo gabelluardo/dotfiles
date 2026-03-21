@@ -1,10 +1,9 @@
-# gopath go
-set -x GOPATH "$HOME/.go"
-set -x PATH "$GOPATH/bin:$PATH"
-
 # borg-backup pass
 set -x BORG_PASSCOMMAND cat ~/.borg-passphrase
 
 # anime-dl client id for anilist
 set -x ANIMEDL_ID 4047
 
+if status is-interactive
+    set -gx GPG_TTY (tty)
+end
