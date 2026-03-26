@@ -1,0 +1,19 @@
+# --- Cursor ---
+cursor-style = block
+
+# --- Window ---
+window-height = 34
+window-width = 110
+
+# --- Mouse ---
+mouse-hide-while-typing = true
+
+# --- Terminal & Shell ---
+command = /bin/fish -l
+
+# --- Keybinds ---
+keybind = f11=toggle_fullscreen
+keybind = ctrl+shift+t=new_window
+keybind = alt+]=new_split:right
+keybind = alt+[=new_split:down
+
