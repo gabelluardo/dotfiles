@@ -9,9 +9,6 @@ thickness = 0.1
 blinking = "On"
 shape = "Block"
 
-[env]
-WINIT_X11_SCALE_FACTOR = "1"
-
 [font]
 size = 12.0
 
