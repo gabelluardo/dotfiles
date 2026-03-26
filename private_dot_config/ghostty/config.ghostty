@@ -1,9 +1,16 @@
+# --- Theme ---
+config-file = ?auto/theme.ghostty
+
+# --- Fonts ---
+font-family = "JetBrains Mono"
+font-size = 13
+
 # --- Cursor ---
 cursor-style = block
 
 # --- Window ---
-window-height = 34
-window-width = 110
+window-height = 38
+window-width = 120
 
 # --- Mouse ---
 mouse-hide-while-typing = true
