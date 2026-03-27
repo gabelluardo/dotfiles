@@ -10,9 +10,15 @@ cursor-style = block
 # --- Window ---
 window-height = 32
 window-width = 100
+
+# --- Style ---
+window-show-tab-bar = never
 scrollbar = never
 link-previews = false
+
+# --- Behaviour ---
 confirm-close-surface = false
+tab-inherit-working-directory = true
 
 # --- Mouse ---
 mouse-hide-while-typing = true
@@ -25,4 +31,7 @@ keybind = f11=toggle_fullscreen
 keybind = ctrl+shift+t=new_window
 keybind = alt+]=new_split:right
 keybind = alt+[=new_split:down
-
+keybind = alt+n=new_tab
+keybind = alt+arrow_right=next_tab
+keybind = alt+arrow_left=previous_tab
+keybind = alt+w=toggle_tab_overview
