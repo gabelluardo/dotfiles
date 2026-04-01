@@ -23,6 +23,8 @@
 	defaultBranch = main
 [commit]
 	gpgsign = true
+[blame]
+	ignoreRevsFile = .git-blame-ignore-revs
 [tag]
 	forceSignAnnotated = true
 [github]
