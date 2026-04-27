@@ -24,7 +24,7 @@ tab-inherit-working-directory = true
 mouse-hide-while-typing = true
 
 # --- Terminal & Shell ---
-command = /bin/fish -l
+command = /bin/fish -l -c "exec fish"
 
 # --- Keybinds ---
 keybind = f11=toggle_fullscreen
