@@ -1,16 +1,44 @@
-theme = "ayu_mirage"
-# theme = "gruvbox"
+theme = "gruvbox-transparent"
 
 [editor]
-auto-completion = true
-auto-info = true
-completion-trigger-len = 2
-true-color = true
-auto-format = true
-cursorline = true
+# cursorline = true
+trim-trailing-whitespace = true
+
+[editor.search]
+# rainbow-brackets = true
+
+[editor.statusline]
+left = ["mode", "spinner", "file-name", "file-modification-indicator"]
+center = ["version-control"]
+right = [
+    "diagnostics",
+    "selections",
+    "position",
+    "total-line-numbers",
+    "file-type",
+    "file-indent-style",
+]
+
+# [editor.whitespace.render]
+# space = "all"
+
+# [editor.whitespace.characters]
+# space = "·"
 
 [editor.lsp]
 display-inlay-hints = true
 
 [editor.cursor-shape]
 insert = "bar"
+
+[editor.indent-guides]
+render = true
+character = "▏"
+
+[editor.soft-wrap]
+enable = true
+
+[keys.normal]
+"," = { f = "file_picker", b = "buffer_picker", g = "global_search", d = "symbol_picker", a = "align_selections", r = ":config-reload", w = ":write", s = "hsplit", v = "vsplit" }
+tab = "goto_next_buffer"
+S-tab = "goto_previous_buffer"

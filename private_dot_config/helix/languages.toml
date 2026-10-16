@@ -1,0 +1,19 @@
+[[language]]
+name = "html"
+indent = { tab-width = 2, unit = "  " }
+
+[[language]]
+name = "css"
+indent = { tab-width = 2, unit = "  " }
+
+[[language]]
+name = "xml"
+indent = { tab-width = 2, unit = "  " }
+
+[[language]]
+name = "htmldjango"
+indent = { tab-width = 2, unit = "  " }
+
+[[language]]
+name = "markdown"
+indent = { tab-width = 2, unit = "  " }
